@@ -54,7 +54,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="sitecore\client\Sitecore\ExperienceEditor\Pipelines\LockItem\LockItem.Lock.js" />
+    <Content Include="sitecore\shell\client\Sitecore\ExperienceEditor\Pipelines\LockItem\LockItem.Lock.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
