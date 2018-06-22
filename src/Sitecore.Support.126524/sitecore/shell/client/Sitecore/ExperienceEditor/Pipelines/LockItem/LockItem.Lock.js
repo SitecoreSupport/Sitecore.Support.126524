@@ -6,7 +6,7 @@
     ], function (Sitecore, ExperienceEditor) {
   return ExperienceEditor.PipelinesUtil.generateRequestProcessor("ExperienceEditor.LockItem", function (response) {
     if (response.context.currentContext.version != response.responseValue.value.Version) {
-        ExperienceEditor.refreshOnItem(response.context.currentContext, true);
+        ExperienceEditor.refreshOnItem(response.context.currentContext, true, false, true);
     }
 
     var locked = response.responseValue.value.Locked;
